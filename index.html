@@ -22,6 +22,20 @@
 typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
 b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
 mixpanel.init("15506165101389b7ed2095b703b4b36e");</script><!-- end Mixpanel -->
+<script type="text/javascript">
+    mixpanel.track("Landing Page Loaded");
+    mixpanel.track_links("#standby", "Click standby link", {'referrer': document.referrer });
+    mixpanel.track_links("#socialize", "Click socialize link", {'referrer': document.referrer });
+    mixpanel.track_links("#oxen", "Click oxen link", {'referrer': document.referrer });
+    mixpanel.track_links("#hostelcloud", "Click hostelcloud link", {'referrer': document.referrer });
+    mixpanel.track_links("#googlehacks", "Click googlehacks link", {'referrer': document.referrer });
+    mixpanel.track_links("#speakingieee", "Click speakingieee link", {'referrer': document.referrer });
+    mixpanel.track_links("#paperieee", "Click paperieee link", {'referrer': document.referrer });
+    mixpanel.track_links("#github", "Click github link", {'referrer': document.referrer });
+    mixpanel.track_links("#twitter", "Click twitter link", {'referrer': document.referrer });
+    mixpanel.track_links("#linkedin", "Click linkedin link", {'referrer': document.referrer });
+
+</script>
   </head>
   <body>
 
@@ -37,26 +51,26 @@ mixpanel.init("15506165101389b7ed2095b703b4b36e");</script><!-- end Mixpanel -->
       <div class="column">
         <h3>Projects</h3>
 
-        <h4><a href="http://blog.standbytaskforce.com/" target="_blank">Standby Task Force</a></h4>
+        <h4><a href="http://blog.standbytaskforce.com/" target="_blank" id="standby">Standby Task Force</a></h4>
         <p>Typhoon Yolanda : Monitoring & Data Extraction </p>
 
-        <h4><a href="http://www.bolddata.net" target="_blank">Socialize!</a></h4>
+        <h4><a href="http://www.bolddata.net" target="_blank" id="socialize">Socialize!</a></h4>
         <p>Empowering the value of coffee-shop from social-media </p>
 
-        <h4><a href="http://www.bolddata.net" target="_blank">Oxen</a></h4>
+        <h4><a href="http://www.bolddata.net" target="_blank"  id="oxen">Oxen</a></h4>
         <p>Cloud based Digital-signage</p>
 
-        <h4><a href="http://www.hostelcloud.com" target="_blank">Hostel Cloud</a></h4>
+        <h4><a href="http://www.hostelcloud.com" target="_blank"  id="hostelcloud">Hostel Cloud</a></h4>
         <p>Saas based management for Hostels</p>
 
-        <h4><a href="https://code.google.com/p/googlehacks/" target="_blank">GoogleHacks</a></h4>
+        <h4><a href="https://code.google.com/p/googlehacks/" target="_blank"  id="googlehacks">GoogleHacks</a></h4>
         <p>Google Search : The unsusual way !</p>
       </div>
 
       <div class="column">
         <h3>Speaking</h3>
 
-        <h4><a href="http://ieeexplore.ieee.org"></a>Big Data for geopolitical analysis</h4>
+        <h4><a href="http://ieeexplore.ieee.org"  id="speakingieee"></a>Big Data for geopolitical analysis</h4>
         <p><span class="date">May 2013</span> IEEE AICSSA International Conference</p>
 
         <h4>Big Data and Open data use cases for Morocco</h4>
@@ -70,7 +84,7 @@ mixpanel.init("15506165101389b7ed2095b703b4b36e");</script><!-- end Mixpanel -->
         <p>A chapter on Information Granularity, Big Data and Computational Intelligence book 
         (Springer, will be published on April 2014).</p>
 
-        <h4><a href="http://goo.gl/QGnhg5" target="_blank">“Big Data for Geo-political Analysis : application on Barack Obama Speeches”</a></h4>
+        <h4><a href="http://goo.gl/QGnhg5" target="_blank" id="paperieee">“Big Data for Geo-political Analysis : application on Barack Obama Speeches”</a></h4>
         <p>ISSN: 2161-5322,a research paper about advanced data science technologies and application on geopolitical subjects.</p>
 		
 		<h4>Virtualization in Embedded Systems</h4>
@@ -86,13 +100,13 @@ mixpanel.init("15506165101389b7ed2095b703b4b36e");</script><!-- end Mixpanel -->
       <div class="column"></div>
 
       <div class="column">
-        <p><a href="http://github.com/abensrhir" target="_blank">GitHub</a> /
-          <a href="http://www.bolddata.net" target="_blank">Bold Data</a> /
-          <a href="http://twitter.com/anassbensrhir" target="_blank">Twitter</a></p>
+        <p><a href="http://github.com/abensrhir" target="_blank" id="github">GitHub</a> /
+          <a href="http://www.bolddata.net" target="_blank" id="bolddata">Bold Data</a> /
+          <a href="http://twitter.com/anassbensrhir" target="_blank" id="twitter">Twitter</a></p>
       </div>
 
       <div class="column">
-        <p><a href="http://www.linkedin.com/in/abensrhir/en" target="_blank">CV (Linkedin)</a></p>
+        <p><a href="http://www.linkedin.com/in/abensrhir/en" target="_blank" id="linkedin">CV (Linkedin)</a></p>
       </div>
     </div>
 	
